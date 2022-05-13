@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventuresOnlineMapEditor", "AdventuresOnlineMapEditor.csproj", "{4BC8D868-41DD-4976-A250-30B4B55F6217}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BC8D868-41DD-4976-A250-30B4B55F6217}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BC8D868-41DD-4976-A250-30B4B55F6217}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BC8D868-41DD-4976-A250-30B4B55F6217}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BC8D868-41DD-4976-A250-30B4B55F6217}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {81F37350-C0B2-4AAF-851C-D3B959C61412}
+	EndGlobalSection
+EndGlobal
