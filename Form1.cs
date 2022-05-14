@@ -29,6 +29,7 @@ namespace AdventuresOnlineMapEditor
         double LocationY = 0;
         public List<PictureBox> pictureBoxList = new List<PictureBox>();
         public static List<Sprite2D> RemoveList = new List<Sprite2D>();
+        public static Vector2 imagePos;
         public Form1()
         {
 
@@ -56,17 +57,9 @@ namespace AdventuresOnlineMapEditor
         public void MapEditorPanel_MouseClick(object sender, MouseEventArgs e)
         {
             g.Clear(Color.Black);
-            x = e.X + MapEditorPos.X;
-            y = e.Y + MapEditorPos.Y;
-            for (int i = 0; i * 96 < x; i++)
-            {
-                for (int j = 0; j * 64 < y; j++)
-                {
-                    LocationX = i;
-                    LocationY = j;
-                }
-            }
-            Vector2 imagePos = new Vector2((float)LocationX, (float)LocationY);
+            LocationX = (int)((e.X + MapEditorPos.X)/96);
+            LocationY = (int)((e.Y + MapEditorPos.Y)/64);
+            imagePos = new Vector2((float)LocationX, (float)LocationY);
             RemoveList.Clear();
             if (RemoveLayer)
             {
